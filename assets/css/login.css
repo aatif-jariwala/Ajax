@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+.login {
+    /* float: right; */
+    margin-right: auto;
+	font-size: 20px;
+	border-radius: 20px;
+	color: lightcoral;
+	background-color: blue;
+    cursor: pointer;
+	width: 150px;
+	height: 40px;
+    padding: 8px 20px;
+    /* padding: 30px; */
+    line-height: 8px;
+    text-align: center;
+}
+#demo{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+#message{
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: center; */
+    display: none;
+    background-color: green;
+    color: red;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    /* width: 100%; */
+    height: 40px;
+}
+#close{
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    float:right;
+    margin-right: 20px;
+    line-height: 41px;
+    /* text-align: right; */
+}
+
+.h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+	text-align: center;
+	color: mediumspringgreen;
+}
+
+.container {
+	background-image: url("../image/3.jpg");
+	background-repeat: no-repeat;
+	background-size: inherit;
+    /* background-attachment: fixed; */
+}
+
+.a_signup {
+    margin-left: 10px;
+	/* text-decoration: none;
+	font-size: 20px; */
+    float: left;
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    color: #795548;
+    cursor:pointer;
+}
+
+.td_signup {
+	color: khaki;
+	font-size: 20px;
+}
+table tr th{
+    width: 200px;
+    text-align: right;
+}
+table tr{
+    border: none;
+}
+td{
+    height: 88px;
+}
+table tr td i{
+    position: relative;
+    left: 35px;
+}
+
+#name,
+#password {
+    padding-left: 35px;
+	font-size: 25px;
+    color: lightskyblue;
+	border-bottom: 1px solid lightblue;
+    background-color: transparent;   
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+input::-webkit-input-placeholder{
+    color: white;
+    opacity:0.4;
+}
+#name:focus,
+#password:focus {
+	outline: 0px;
+    border-bottom: 1px solid chartreuse;
+}
+
+#table {
+    border: none;
+    border-radius: 20px;
+    /* border-bottom: 0; */
+    /* border-style:dotted dashed solid double; */
+    border-color: tomato;
+    /* border:2px solid tomato; */
+	text-align: center;
+	margin: auto;
+	border-collapse: collapse;
+	/* background-color: lightskyblue; */
+    background-color: transparent;
+}
+
+tr th {
+	color: khaki;
+	font-size: 30px;
+}
+.new{
+    /* display: inline; */
+    float: left;
+    margin-left: 42px;
+    font-size: 25px;
+    line-height: 36px;
+    /* display: flex; */
+    color: yellow;
+}
